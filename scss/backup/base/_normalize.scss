@@ -1,0 +1,75 @@
+html {
+	box-sizing: border-box;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+*,
+*:before,
+*:after { /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+	box-sizing: inherit;
+}
+
+body{
+	// font-family: $font-main;
+}
+video{
+	max-width: 100%;
+}
+p {
+	margin-bottom: 1.5em;
+}
+blockquote {
+	margin: 0 1.5em;
+}
+
+address {
+	margin: 0 0 1.5em;
+}
+
+// back to top
+a.back-to-top {
+	display: none;
+	width: 50px;
+	height: 50px;
+	text-indent: -9999px;
+	position: fixed;
+	z-index: 90;
+	right: 15px;
+	bottom: 15px;
+	background: transparent url(images/scrollupicon.png) no-repeat center;
+	background-size: cover;
+	opacity: .85;
+}
+/*contact form 7 error*/
+ .your-message,
+ .wpcf7-form-control-wrap {
+	display: block;
+	position: relative;
+
+}
+div.wpcf7-mail-sent-ok {
+	font-size: 11px;
+	margin: 0;
+	margin-top: 59px;
+}
+span.wpcf7-not-valid-tip {
+	color: #ff0000;
+	font-size: 14px;
+	position: absolute;
+	bottom: 5px;
+}
+div.wpcf7-validation-errors{
+	border-color: #ff0000 ;
+	color: #ff0000;
+	font-size: 13px;
+	margin: 10px 0 0 0;
+	text-align: center;
+}
+.form-contact .row + p{
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+/*error end*/
+

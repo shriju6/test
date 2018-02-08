@@ -1,0 +1,61 @@
+.site-header{
+	left: 0;
+	padding: 25px 0;
+	position: fixed;
+	right: 0;
+	width:  100%;	
+	z-index: 1;
+	
+	.site-branding{
+		margin-top: 0;
+	}
+	.menu-section{
+		text-align: right;
+		#main-nav{
+			display: inline-block;
+			a{
+				color: $color__white;
+				font-size: 16px;
+				padding: 0 18px;
+				text-transform: uppercase;
+			}
+		}
+		.right-info{
+			position: relative;
+			top: -4px;
+			.login{
+				color: $common-color;
+				font-size: 18px;
+				font-weight: 900;
+				text-transform: uppercase;
+				margin-right: 2%;
+			}
+
+			.phone{
+				background: url(images/phone.png) no-repeat center center;
+				background-color: $color__white;
+				display: inline-block;
+				height: 50px;
+				text-align: center;
+				width: 50px;
+				vertical-align: middle;
+			}
+		}
+	}
+	&.sticky-header{
+		background: $common-color-transparent;
+		position: fixed;
+		padding: 5px;
+		top: 0;
+		width: 100%;
+		.site-branding{
+			margin-top: 0;
+		}
+		.right-info{
+			.login{
+				color: $color__white;
+			}
+		}
+	}
+
+}

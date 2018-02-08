@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'nexa_rust_slabblack_shadow_01';
+    src: url('fonts/nexa-rust.slab-black-shadow-01-webfont.eot');
+    src: url('fonts/nexa-rust.slab-black-shadow-01-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/nexa-rust.slab-black-shadow-01-webfont.woff2') format('woff2'),
+         url('fonts/nexa-rust.slab-black-shadow-01-webfont.woff') format('woff'),
+         url('fonts/nexa-rust.slab-black-shadow-01-webfont.ttf') format('truetype'),
+         url('fonts/nexa-rust.slab-black-shadow-01-webfont.svg#nexa_rust_slabblack_shadow_01') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+$font__highlight:  'nexa_rust_slabblack_shadow_01';
+$font__main:  'Raleway', sans-serif;
+$font__normal:  'Open Sans', sans-serif;
+$font__code: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+$font__pre: "Courier 10 Pitch", Courier, monospace;
+$font__line-height-body: 1.5;
+$font__line-small: 1.1;
